@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ObdulioYTienda.Lentorro">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAgEAAAAA=</HashCode>
+      <FileName>Lentorro.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ObdulioYTienda.FabricaOrdenadores">
+    <Position X="9.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FabricaOrdenadores.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ObdulioYTienda.Normal">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAgEAAAAA=</HashCode>
+      <FileName>Normal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ObdulioYTienda.Gamer">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAgEAAAAA=</HashCode>
+      <FileName>Gamer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ObdulioYTienda.IVendible">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgEAAAAA=</HashCode>
+      <FileName>IVendible.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ObdulioYTienda.IFabricaOrdenadoresVendibles">
+    <Position X="9.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFabricaOrdenadoresVendibles.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ObdulioYTienda.TipoOrdenador">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAIAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TipoOrdenador.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EjercicioSuperficieperimetro.Modelo.Circulo">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAEAAAAAACAAAAAAAQAAAEAAAAAAAA=</HashCode>
+      <FileName>Modelo\Circulo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EjercicioSuperficieperimetro.Modelo.Cuadrado">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAEAAAAAACAAAAAAAQAAAAABAAAAAA=</HashCode>
+      <FileName>Modelo\Cuadrado.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EjercicioSuperficieperimetro.Modelo.Factoria">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\Factoria.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EjercicioSuperficieperimetro.Modelo.VisionadorConsola">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Modelo\VisionadorConsola.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="EjercicioSuperficieperimetro.Modelo.IFactoriaMedibles">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\IFactoriaMedibles.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EjercicioSuperficieperimetro.Modelo.IMedible">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAACAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Modelo\IMedible.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EjercicioSuperficieperimetro.Modelo.IVisionable">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Modelo\IVisionable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="EjercicioSuperficieperimetro.Modelo.EnumTipos">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Modelo\EnumTipos.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
