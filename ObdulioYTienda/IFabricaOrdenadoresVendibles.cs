@@ -7,7 +7,6 @@ namespace ObdulioYTienda
 {
     public interface IFabricaOrdenadoresVendibles
     {
-        IVendible dameVendible(TipoOrdenador tipo, int valorPrecio=0, int valorGarantia = 0);
-         
-    }
+        IVendible dameVendible(TipoOrdenador tipo, int valorPrecio = 0, int valorGarantia = 0);
+    }  
 }
