@@ -8,6 +8,8 @@ namespace ObdulioYTienda
 {
     public class FabricaOrdenadores : IFabricaOrdenadoresVendibles
     {
+        public IValidador Validador {get; set;}
+
         public IVendible dameVendible(TipoOrdenador tipo, int valorPrecio, int valorGarantia)
         {
             switch (tipo)

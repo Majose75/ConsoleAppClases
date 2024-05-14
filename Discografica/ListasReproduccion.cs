@@ -7,7 +7,7 @@ namespace Discografica
 {
     public class ListasReproduccion : IListasReproduccion
     {
-        public List<IReproducible> Reproducibles = new List<IReproducible>();
+        public LinkedList<IReproducible> Reproducibles = new LinkedList<IReproducible>();
         int numeroCanciones = 0;
         int sumaDuracion = 0;
      
@@ -16,7 +16,7 @@ namespace Discografica
         {
             if (elemento != null)
             {
-                Reproducibles.Add(elemento);
+                Reproducibles.AddFirst(elemento);
                 numeroCanciones++;
                 sumaDuracion += elemento.Duracion;
             }

@@ -11,7 +11,7 @@
   <Class Name="ObdulioYTienda.FabricaOrdenadores">
     <Position X="9.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
       <FileName>FabricaOrdenadores.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -32,6 +32,22 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="ObdulioYTienda.Validador">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validador.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ObdulioYTienda.OperacionesVendibles">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAAgEIAAAAAAgFBAAABAAAAAAAAAAACAAAAAgA=</HashCode>
+      <FileName>OperacionesVendibles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Interface Name="ObdulioYTienda.IVendible">
     <Position X="1.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
@@ -44,6 +60,20 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IFabricaOrdenadoresVendibles.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ObdulioYTienda.IValidador">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IValidador.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ObdulioYTienda.IColeccionVendibles">
+    <Position X="14.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAAAEAAAAAAAABBAAABAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>IColeccionVendibles.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="ObdulioYTienda.TipoOrdenador">
