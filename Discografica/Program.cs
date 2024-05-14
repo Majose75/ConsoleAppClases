@@ -47,6 +47,8 @@ IReproducible MiAnuncio = MiFabrica1.DameReproducible(EnumTipoLista.Anuncio, 10)
 
 //(MiAnuncio as ICanon).Coste = 32;
 ListaRepAnuncio.Add(MiAnuncio);
-Console.WriteLine($"Total Duracion Lista Anuncios: {(ListaRepAnuncio as Coleccion02).TotalDuracionLista()}");
-Console.WriteLine($"Total Elementos Lista Anuncios: {(ListaRepAnuncio as Coleccion02).TotalCanciones()}");
+Console.WriteLine($"Total Duracion Lista Anuncios: {ListaRepAnuncio.TotalDuracionLista()}");
+Console.WriteLine($"Total Elementos Lista Anuncios: {ListaRepAnuncio.TotalCanciones()}");
 Console.WriteLine($"Total Canon: {(ListaRepAnuncio as Coleccion02).TotalDineroListaDistribucion()}");
+Console.WriteLine($"Total elementos: {ListaRep.TotalCanciones() + ListaRepCorea.TotalCanciones() + ListaRepAnuncio.TotalCanciones()}");
+Console.WriteLine($"Total Duracion de todos los elementos: {ListaRep.TotalDuracionLista() + ListaRepCorea.TotalDuracionLista() + ListaRepAnuncio.TotalDuracionLista()}");
