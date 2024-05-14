@@ -7,7 +7,7 @@ namespace Discografica
 {
     public class ListasReproduccion : IListasReproduccion
     {
-        List<IReproducible> Reproducibles = new List<IReproducible>();
+        public List<IReproducible> Reproducibles = new List<IReproducible>();
         int numeroCanciones = 0;
         int sumaDuracion = 0;
      

@@ -8,7 +8,6 @@ namespace Discografica
     public interface IFabricaReproducibles
     {
         IValidable Validador { get; set; }
-        
         IReproducible DameReproducible(EnumTipoLista tipo, int duracion);
     }
 }

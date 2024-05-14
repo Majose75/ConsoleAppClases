@@ -8,36 +8,26 @@ namespace Discografica
     public class Fabrica01 : IFabricaReproducibles
     {
         public IValidable Validador {get;set;}
-        
 
-        public IReproducible DameReproducible(EnumTipoLista tipo, int duracion=0)
+
+        public IReproducible DameReproducible(EnumTipoLista tipo, int duracion = 0)
         {
-            IReproducible reproducible = null;
+            IReproducible reproducible = null; //Le asignamos un valor al elemento
             switch (tipo)
             {
-                case EnumTipoLista.Canciones: reproducible = new Canciones();break;
-                case EnumTipoLista.Podcast: reproducible = new Podcast();break;
-                case EnumTipoLista.Videos: reproducible = new Videos();break;
+                case EnumTipoLista.Canciones: reproducible = new Canciones(); break;
+                case EnumTipoLista.Podcast: reproducible = new Podcast(); break;
+                case EnumTipoLista.Videos: reproducible = new Videos(); break;
+                case EnumTipoLista.Anuncio: reproducible = new Anuncio(); break;
             }
-            if(duracion != 0)
+            if (duracion != 0)
             {
                 reproducible.Duracion = duracion;
             }
-            if(reproducible != null)
-            {
-                if (Validador.isValid(reproducible))
-                {
-                    return reproducible;
-                }
-                else
-                {
-                    return null;
-                }
+            if ((reproducible != null) && Validador.isValid(reproducible)){
+                return reproducible;
             }
-            else
-            {
-                return null;
-            }
+            else { return null; }
         }
     }
 }

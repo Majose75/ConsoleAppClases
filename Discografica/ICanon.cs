@@ -5,11 +5,8 @@ using System.Text;
 
 namespace Discografica
 {
-    public enum EnumTipoLista
+    public interface ICanon
     {
-        Canciones,
-        Videos,
-        Podcast,
-        Anuncio
+        int Coste { get; set; }
     }
 }

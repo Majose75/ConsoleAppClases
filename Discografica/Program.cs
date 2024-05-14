@@ -15,14 +15,12 @@ ListaRep.Add(MiCancion1);
 ListaRep.Add(MiCancion2);
 ListaRep.Add(MiCancion3);
 
-
 //Console.WriteLine(MiCancion1.Duracion);
 //Console.WriteLine(MiCancion2.Duracion);
 //Console.WriteLine(MiCancion3.Duracion);
 
 Console.WriteLine($"Total Duracion Lista Canciones: {ListaRep.TotalDuracionLista()}");
 Console.WriteLine($"Total Elementos Lista Canciones: {ListaRep.TotalCanciones()}");
-
 
 IValidable MiValidadorCorea = new ValidadorCorea();
 IFabricaReproducibles MiFabricaCorea = new Fabrica01();
@@ -39,3 +37,16 @@ ListaRepCorea.Add(MiVideo3);
 
 Console.WriteLine($"Total Duracion Lista Videos: {ListaRepCorea.TotalDuracionLista()}");
 Console.WriteLine($"Total Elementos Lista Videos: {ListaRepCorea.TotalCanciones()}");
+
+
+IValidable MiValidadorAnuncio = new Validador();
+IFabricaReproducibles MiFabrica1=new Fabrica01();
+MiFabrica1.Validador = MiValidador;
+IListasReproduccion ListaRepAnuncio = new Coleccion02();
+IReproducible MiAnuncio = MiFabrica1.DameReproducible(EnumTipoLista.Anuncio, 10);
+
+//(MiAnuncio as ICanon).Coste = 32;
+ListaRepAnuncio.Add(MiAnuncio);
+Console.WriteLine($"Total Duracion Lista Anuncios: {(ListaRepAnuncio as Coleccion02).TotalDuracionLista()}");
+Console.WriteLine($"Total Elementos Lista Anuncios: {(ListaRepAnuncio as Coleccion02).TotalCanciones()}");
+Console.WriteLine($"Total Canon: {(ListaRepAnuncio as Coleccion02).TotalDineroListaDistribucion()}");

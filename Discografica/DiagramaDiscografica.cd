@@ -33,7 +33,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Discografica.Fabrica01">
-    <Position X="5.75" Y="3.75" Width="1.5" />
+    <Position X="6" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
       <FileName>Fabrica01.cs</FileName>
@@ -49,7 +49,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Discografica.ListasReproduccion">
-    <Position X="3.25" Y="5.5" Width="1.5" />
+    <Position X="4" Y="4" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAIAgAAQAAAAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAIA=</HashCode>
       <FileName>ListasReproduccion.cs</FileName>
@@ -63,6 +63,21 @@
       <FileName>ValidadorCorea.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Discografica.Anuncio">
+    <Position X="13.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAACABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Anuncio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Discografica.Coleccion02">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Coleccion02.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Interface Name="Discografica.IReproducible">
     <Position X="0.75" Y="0.5" Width="1.5" />
@@ -79,23 +94,30 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="Discografica.IFabricaReproducibles">
-    <Position X="4" Y="3.5" Width="1.5" />
+    <Position X="7.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
       <FileName>IFabricaReproducibles.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="Discografica.IListasReproduccion">
-    <Position X="8" Y="3.75" Width="1.5" />
+    <Position X="4" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
       <FileName>IListasReproduccion.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Enum Name="Discografica.EnumTipoLista">
-    <Position X="0.75" Y="3.5" Width="1.5" />
+  <Interface Name="Discografica.ICanon">
+    <Position X="7.75" Y="5.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAg=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICanon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Discografica.EnumTipoLista">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAg=</HashCode>
       <FileName>EnumTipoLista.cs</FileName>
     </TypeIdentifier>
   </Enum>
