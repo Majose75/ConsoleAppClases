@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjercicioSuperficieperimetr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObdulioYTienda", "ObdulioYTienda\ObdulioYTienda.csproj", "{2676A553-EF63-4D78-9294-FE4A0F00E368}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discografica", "Discografica\Discografica.csproj", "{72291746-8DE2-44A6-9943-F2177901D521}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discografica", "Discografica\Discografica.csproj", "{72291746-8DE2-44A6-9943-F2177901D521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercito", "Ejercito\Ejercito.csproj", "{F5CFB706-856E-401B-805F-055749F4A8AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{72291746-8DE2-44A6-9943-F2177901D521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72291746-8DE2-44A6-9943-F2177901D521}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72291746-8DE2-44A6-9943-F2177901D521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CFB706-856E-401B-805F-055749F4A8AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CFB706-856E-401B-805F-055749F4A8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CFB706-856E-401B-805F-055749F4A8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CFB706-856E-401B-805F-055749F4A8AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

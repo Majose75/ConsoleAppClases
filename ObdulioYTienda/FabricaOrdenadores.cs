@@ -10,13 +10,20 @@ namespace ObdulioYTienda
     {
         public IValidador Validador {get; set;}
 
-        public IVendible dameVendible(TipoOrdenador tipo, int valorPrecio, int valorGarantia)
+        public IVendible DameVendible(TipoOrdenador tipo, int valorPrecio, int valorGarantia)
         {
+            IVendible vendible = null;
             switch (tipo)
             {
-                case TipoOrdenador.Normal:  return new Normal() { Precio= valorPrecio, Garantia=valorGarantia};
-                case TipoOrdenador.Gamer:  return new Normal() { Precio = valorPrecio, Garantia = valorGarantia };
-                case TipoOrdenador.Lentorro: return new Normal() { Precio = valorPrecio, Garantia = valorGarantia };
+                case TipoOrdenador.Normal:  vendible= new Normal();
+                case TipoOrdenador.Gamer:  vendible= new Normal();
+                case TipoOrdenador.Lentorro: vendible= new Normal();
+
+            }
+            if (vendible != null)
+            {
+                valorPrecio = vendible.Precio;
+                valorGarantia= vendible.Garantia;
 
             }
             
