@@ -13,8 +13,8 @@ namespace Ejercito
         double totalBlindaje = 0;
         double totalMovimiento = 0;
         double totalGastado = 0;
-       
         //double CM = 0;
+        //public string nombreDivision = "";
         public bool Add(IMilitable elemento)
         {
             if(elemento != null)
@@ -27,10 +27,7 @@ namespace Ejercito
                 totalMovimiento += elemento.Movimiento;
                 totalGastado += elemento.Precio;
                 //CM += elemento.CapacidadMilitar();
-                //foreach (var item in elementoMilitar)
-                //{
-                //    Console.WriteLine(item.Nombre);
-                //}
+                //nombreDivision= elementoMilitar.
                 return true;
             }
             else
@@ -40,7 +37,7 @@ namespace Ejercito
 
         }
 
-          public double CapacidadMilitar()
+        public double CapacidadMilitar()
         {
             //return this.CM;
             return ((totalPotencia * totalMovimiento) / 2) / (100 - totalBlindaje);
@@ -70,5 +67,6 @@ namespace Ejercito
         {
             return totalGastado;
         }
+
     }
 }

@@ -9,8 +9,7 @@ namespace Ejercito
     {
         public bool isValid(IMilitable Elemento)
         {
-            return (Elemento.Precio >= 0) && (Elemento.PotenciaFuego >= 0) && (Elemento.Movimiento >= 0) &&
-                (Elemento.Blindaje >= 0) && (Elemento.Nombre != "");
+            return (Elemento.Precio >= 0);
         }
     }
 }
