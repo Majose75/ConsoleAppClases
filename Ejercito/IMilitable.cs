@@ -13,6 +13,6 @@ namespace Ejercito
         double PotenciaFuego { get; set; }
         double Precio { get; set; }
 
-        //double CapacidadMilitar();
+        double CapacidadMilitar();
     }
 }

@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObdulioYTienda", "ObdulioYT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discografica", "Discografica\Discografica.csproj", "{72291746-8DE2-44A6-9943-F2177901D521}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercito", "Ejercito\Ejercito.csproj", "{F5CFB706-856E-401B-805F-055749F4A8AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercito", "Ejercito\Ejercito.csproj", "{F5CFB706-856E-401B-805F-055749F4A8AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELiminacionPlagas", "ELiminacionPlagas\ELiminacionPlagas.csproj", "{7F4FB142-A890-480B-B90E-0F331249004C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{F5CFB706-856E-401B-805F-055749F4A8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5CFB706-856E-401B-805F-055749F4A8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5CFB706-856E-401B-805F-055749F4A8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4FB142-A890-480B-B90E-0F331249004C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4FB142-A890-480B-B90E-0F331249004C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4FB142-A890-480B-B90E-0F331249004C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4FB142-A890-480B-B90E-0F331249004C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

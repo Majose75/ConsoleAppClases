@@ -24,12 +24,10 @@ namespace Ejercito
         public double PotenciaFuego { get; set; }
         public double Precio { get; set; }
 
-        //public double CapacidadMilitar()
-        //{
-        //    return ((PotenciaFuego * Movimiento) / 2) / (100 - Blindaje);
-        //}
-
-
+        public double CapacidadMilitar()
+        {
+            return ((PotenciaFuego * Movimiento) / 2) / (100 - Blindaje);
+        }
 
         public override string? ToString()
         {
